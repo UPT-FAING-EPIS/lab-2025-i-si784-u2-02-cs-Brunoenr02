@@ -29,7 +29,7 @@ jobs:
 
       - name: Generate coverage Report
         run: |
-          dotnet test --collect:"XPlat Code Coverage"
+          dotnet test PrimeService/Primes.Tests/Primes.Tests.csproj --collect:"XPlat Code Coverage"
           dotnet tool install -g dotnet-reportgenerator-globaltool
           reportgenerator "-reports:./*/*/*/coverage.cobertura.xml" "-targetdir:Cobertura" -reporttypes:MarkdownSummaryGithub
 
