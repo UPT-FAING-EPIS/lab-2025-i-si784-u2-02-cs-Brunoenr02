@@ -87,6 +87,16 @@
       "version": ""
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "disenio.md",
+      "output": {
+        ".html": {
+          "relative_path": "disenio.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "ManagedReference",
       "source_relative_path": "docs/Primes.Lib.PrimeService.yml",
       "output": {
